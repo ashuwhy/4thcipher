@@ -1,6 +1,6 @@
 ## The 4thCipher: A Hill Cipher Enhancement
 
-**Abstract:**  The 4thCipher, developed by [alexshcer](https://github.com/alexshcer/), introduces a novel pre-processing technique to enhance the security and efficiency of the Hill cipher. This method utilizes a unique encoding scheme that embeds crucial decryption information within the plaintext itself, eliminating the need for separate key transmission while preserving the integrity of the original Hill cipher algorithm.  The cipher leverages matrix operations to encrypt multiple blocks of encoded plaintext simultaneously, increasing efficiency.
+**Abstract:**  The 4thCipher, developed by [ashuwhy](https://github.com/ashuwhy/), introduces a novel pre-processing technique to enhance the security and efficiency of the Hill cipher. This method utilizes a unique encoding scheme that embeds crucial decryption information within the plaintext itself, eliminating the need for separate key transmission while preserving the integrity of the original Hill cipher algorithm.  The cipher leverages matrix operations to encrypt multiple blocks of encoded plaintext simultaneously, increasing efficiency.
 
 **1. Introduction:**
 
