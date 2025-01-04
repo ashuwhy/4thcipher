@@ -140,9 +140,9 @@ The Hill cipher, a classic symmetric encryption algorithm, utilizes matrix multi
 
 The 4thCipher's strength lies in its ability to:
 
-* **Obscure Plaintext:** The RNK encoding effectively masks the original plaintext, making it difficult to perform frequency analysis or other known-plaintext attacks.
+* **Obscure Plaintext:** The RNK encoding effectively masks the original plaintext, making performing frequency analysis or other known-plaintext attacks challenging.
 * **Implicit Key Exchange:** By embedding the RNK within the plaintext modification, the 4thCipher eliminates the need for separate secure key exchange for these values.
-* **Efficiency of Matrix Operations:** By applying the Hill cipher to the entire encoded message at once, the cipher leverages the efficiency of matrix multiplication.
+* **Efficiency of Matrix Operations:** By applying the Hill cipher to the entire encoded message simultaneously, the cipher leverages the efficiency of matrix multiplication.
 
 However, vulnerabilities remain:
 
@@ -151,4 +151,4 @@ However, vulnerabilities remain:
 
 **5. Conclusion:**
 
-The 4thCipher presents a promising refinement to the Hill cipher, enhancing its security and efficiency through a clever pre-processing method and the use of matrix operations. While vulnerabilities persist, the embedded RNK approach significantly strengthens the algorithm's resistance to known-plaintext attacks and simplifies key management. Further research and analysis are encouraged to explore the 4thCipher's full potential and address remaining security concerns. 
+The 4thCipher presents a promising refinement to the Hill cipher, enhancing its security and efficiency through a clever pre-processing method and matrix operations. While vulnerabilities persist, the embedded RNK approach significantly strengthens the algorithm's resistance to known plaintext attacks and simplifies key management. I encourage further research and analysis to explore the 4thCipher's full potential and address the remaining security concerns. 
